@@ -18,4 +18,4 @@ Projeção básica apenas para afins de treinamento da linguagem e melhorias.
 
 ---
 
-Acesse o site : <a href="https://dboracanedo.github.io/praticando_JS/" target="_blank">Praticando_JS</a>
+Acesse o site : <a href="https://dboracanedo.github.io/praticas_JavaScript/" target="_blank">Praticando_JS</a>
