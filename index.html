@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+        
+        <body onload="carregar()">
+    
+            <header>
+        
+                <h1>Sejam Bem vindos (a) ao site das horas...</h1>
+    
+            </header>
+    
+            <section>
+        <div id="msg">
+            
+        </div>
+            
+        <div id="foto">
+            <img id="img" src="img/amanhecer.png" alt="foto do dia" width="300px">
+
+        </div>
+
+        <div id="dica">
+            Dicas úteis
+        </div>
+
+        <div id="covid">
+            Covid
+        </div>
+
+
+            <div id="area">
+                Dia a dia
+            </div>
+
+            <script id="dicas">
+                area.addEventListener('click', clicar)
+
+                function clicar(){
+                    var area = document.getElementById('area')
+                    area.innerHTML = `<li>Não se esqueça de beber água, seu corpo agradece.</li>
+                    <li>Se possível durma no mínimo 8hr por dia.</li>
+                    <li>Evite tomar sol das 10hr até as 16hr.</li>
+                    <li>Descanse sua mente por no mínimo 30 minutos. Isso ajudará a se concentrar.</li>
+                    <li>Exercite o seu corpo.</li>
+                    <li>Pense sempre positivamente, o que você transmite ao Universo ele te retribui de volta.</li>`
+                    area.style.background = '#7070dd'
+                }
+            </script>
+
+ 
+    </section>
+    <footer>
+        <p>Praticando JavaScript por Débora Canedo</p>
+    </footer>
+    <script src='script.js'></script>
+</body>
+</html>
